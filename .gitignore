@@ -38,3 +38,32 @@ transaction-logs
 secrets.yml
 .gradletasknamecache
 .sts4-cache
+
+
+
+
+logs
+
+# windows #
+Thumbs.db
+
+# Mac #
+
+
+# eclipse #
+
+.log
+*.class
+
+
+
+
+# Package Files #
+
+*.war
+*.ear
+
+# Flattened pom
+
+/**/.flattened-pom.xml
+
