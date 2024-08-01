@@ -12,9 +12,9 @@ import sample.tomcat.bean.LinuxEnvironment;
 
 @Configuration
 public class ConditionConfig {
+
 	/**
 	 * 只有`@ConditionalOnLinux`的注解属性`environment`是"linux"时才会创建bean
-	 *
 	 * @return
 	 */
 	@Bean
@@ -22,4 +22,5 @@ public class ConditionConfig {
 	public LinuxEnvironment linuxEnvironment() {
 		return new LinuxEnvironment();
 	}
+
 }

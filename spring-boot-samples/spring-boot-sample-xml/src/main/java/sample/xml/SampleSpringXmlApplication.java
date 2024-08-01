@@ -28,7 +28,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 
 /**
- *
  * @author Joy
  * @date 2024/6/3
  * @param
